@@ -39,7 +39,7 @@ const MarketingSection = () => {
                         marketingData.map(marketing => <div class=" md1:mb-24 md2:mb-24" key={marketing.id}>
                             <div className=' relative'>
                                 <img className=' w-full h-[286px]' src={marketing.img} alt="Shoes" />
-                                <div className=' absolute xm2:left-4 xm3:left-5 md1:left-5 md2:left-4 top-48 xm2:px-4 md2:p-4 xm4:px-12 xm4:py-6 sm1:px-28 p-5 rounded-lg lg:left-4 lg:w-[90%] lg:h-[65%]  md2:h-[65%] sm1:left-6  left-6 w-[317px] h-[176px] bg-white-500 ' style={boxShadow}>
+                                <div className=' absolute xm2:left-4 xm3:left-5 md1:left-5 md2:left-4 top-48 xm2:px-4 md2:p-4 xm4:px-12 xm4:py-6 sm1:px-28 p-5 rounded-lg lg:left-4 lg:w-[90%] lg:h-[65%]  md2:h-[65%] sm1:left-6  left-6 w-[317px] h-[176px] bg-white-500 ' style={boxShadow} data-aos="fade-up-left">
                                     <h4 className=' font-Inter font-semibold xm2:text-[17px] md2:text-[18px]  lg:text-[18px] text-[20px] leading-[28px] text-indigo-500 normal-case'>{marketing.title}</h4>
                                     <div className=' flex justify-center'>
                                         <button className=' mt-4 flex items-center text-green-900 font-Inter font-semibold text-[20px] leading-[28px] normal-case'>{marketing.Readmore}<span className=' ms-2'><HiArrowLongRight size={25} /></span></button>

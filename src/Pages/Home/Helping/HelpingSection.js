@@ -6,10 +6,10 @@ import Icon3 from '../../../Assets/Helping-Icon/Icon03.png'
 import Icon4 from '../../../Assets/Helping-Icon/Icon04.png'
 import { Link } from 'react-router-dom';
 const HelpingSection = () => {
-    useCountUp({ ref: "counter1", delay: 2, end: 2245341 });
-    useCountUp({ ref: "counter2", delay: 3, end: 46328 });
-    useCountUp({ ref: "counter3", delay: 4, end: 828867 });
-    useCountUp({ ref: "counter4", delay: 6, end: 1926436 });
+    useCountUp({ ref: "counter1", delay: 6, end: 2245341 });
+    useCountUp({ ref: "counter2", delay: 7, end: 46328 });
+    useCountUp({ ref: "counter3", delay: 6, end: 828867 });
+    useCountUp({ ref: "counter4", delay: 8, end: 1926436 });
     return (
         <div className='hero  bg-white-500 py-16'>
             <div className=' max-w-[1152px] mx-auto lg:px-4'>
@@ -20,8 +20,8 @@ const HelpingSection = () => {
                             <p class="pt-2 text-[#18191F] font-Inter font-normal text-[18px] leading-[32px] normal-case">We reached here with our hard work and dedication</p>
                         </div>
                     </div>
-                    <div className='max-w-[579px] mx-auto gap-4 flex flex-wrap xm4:justify-start justify-end md:mt-10'>
-                        <div className=' xm4:w-full w-[255px] flex items-center justify-end md:justify-start gap-[56px] pb-10'>
+                    <div className='max-w-[579px] mx-auto gap-4 flex flex-wrap xm4:justify-start justify-end md:mt-10 md1:mt-10'>
+                        <div className=' xm4:w-full w-[255px] flex items-center justify-end md:justify-start gap-[56px] pb-10' data-aos="fade-up-right">
                             <div className=' bg-white-900 w-[60px] h-[60px] flex items-center justify-center rounded-full'>
                                 <img src={Icon1} alt='img' />
                             </div>
@@ -30,7 +30,7 @@ const HelpingSection = () => {
                                 <p className=' pt-3 flex justify-center font-Inter font-normal text-indigo-400 text-[16px] leading-[24px] capitalize'> Members</p>
                             </div>
                         </div>
-                        <div className='xm4:w-full w-[255px] flex items-center justify-end  gap-[80px] pb-10'>
+                        <div className='xm4:w-full w-[255px] flex items-center justify-end  gap-[80px] pb-10' data-aos="fade-up-left">
                             <div className='bg-white-900 w-[60px] h-[60px] flex items-center justify-center rounded-full'>
                                 <img className='text-right' src={Icon2} alt='img' />
                             </div>
@@ -39,7 +39,7 @@ const HelpingSection = () => {
                                 <p className=' pt-3 flex justify-center font-Inter font-normal text-indigo-400 text-[16px] leading-[24px] capitalize'>Clubs</p>
                             </div>
                         </div>
-                        <div className='xm4:w-full  w-[255px] flex items-center justify-end md:justify-start xm4:pb-10 gap-[78px]'>
+                        <div className='xm4:w-full  w-[255px] flex items-center justify-end md:justify-start xm4:pb-10 gap-[78px]' data-aos="fade-down-left">
                             <div className='bg-white-900 w-[60px] h-[60px] flex items-center justify-center rounded-full'>
                                 <img src={Icon3} alt='img' />
                             </div>
@@ -48,7 +48,7 @@ const HelpingSection = () => {
                                 <p className=' pt-3 font-Inter flex justify-center font-normal text-indigo-400 text-[16px] leading-[24px] capitalize'>Event Bookings</p>
                             </div>
                         </div>
-                        <div className='xm4:w-full w-[255px] flex items-center justify-end gap-[38px]'>
+                        <div className='xm4:w-full w-[255px] flex items-center justify-end gap-[38px]' data-aos="fade-down-right">
                             <div className='bg-white-900 w-[60px] h-[60px] flex items-center justify-center rounded-full'>
                                 <img src={Icon4} alt='img' />
                             </div>
