@@ -1,0 +1,5 @@
+.navbar1.fixed {
+    background-color: white;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 3px 8px 0px #4CAF4F;
+}
