@@ -27,7 +27,7 @@ const TopButton = () => {
         <>
             {
                 backToTopButton && (
-                    <button className='fixed z-30 sm1:hidden md:block bottom-72 right-12 bg-green-900   rounded-md flex items-center justify-center w-12 h-12 transition duration-700 ease-in-out  rotate-180 hover:rotate-0' onClick={scrollUP}><HiArrowSmallUp className='animate-bounce rounded-full' color='#080a0b' size={20} style={boxShadow} /></button>
+                    <button className='fixed z-30 xm2:hidden lg:flex bottom-72 right-12 bg-green-900   rounded-md flex items-center justify-center w-12 h-12 transition duration-700 ease-in-out  rotate-180 hover:rotate-0' onClick={scrollUP}><HiArrowSmallUp className='animate-bounce rounded-full' color='#080a0b' size={20} style={boxShadow} /></button>
                 )
             }
         </>
