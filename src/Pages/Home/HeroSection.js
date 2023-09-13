@@ -16,6 +16,7 @@ import TimSmithSection from './TimSmith/TimSmithSection';
 import MarketingSection from './Marketing/MarketingSection';
 import SuscipitSection from './Suscipit/SuscipitSection';
 import AllButton from '../../Componet/AllButton';
+import TopButton from '../../Componet/TopButton';
 const HeroSection = () => {
     const settings = {
         dots: true,
@@ -29,18 +30,18 @@ const HeroSection = () => {
     };
     return (
         <div className=''>
-            <div class="hero relative bg-white-500">
+            <div className="hero relative bg-white-500">
                 <div className=' absolute z-20 top-0 w-full'>
                     <Navbar></Navbar>
                 </div>
                 <Slider {...settings}>
                     {sliderData.map((item) => (
-                        <div className=' max-w-[1152px] md:h-auto lg:h-auto h-screen mx-auto xm2:px-4'>
+                        <div className=' max-w-[1152px] md:h-auto lg:h-auto h-screen mx-auto xm2:px-4' key={item.id}>
                             <div className='hero-content  md:flex-col flex-row-reverse md1:gap-10 gap-20 xm4:mt-28 sm:mt-28 sm1:mt-28 md:mt-28 md:my-[80px] lg:mb-[80px] mt-[162px]'>
-                                <img src={HeroImg} class=" w-full max-w-sm" alt='Img' />
+                                <img src={HeroImg} className=" w-full max-w-sm" alt='Img' />
                                 <div className=' text-start'>
-                                    <h1 class=" xm:text-[25px] xm1:text-[29px] md1:text-[30px] md1:leading-[40px] lg:text-[40px] lg:leading-[50px] text-[64px] leading-[76px] font-Inter normal-case font-semibold">{item.title} <br /><span className=' text-green-900'>{item.title1}</span></h1>
-                                    <p class="py-6 text-indigo-400 normal-case font-Inter font-normal text-[16px] leading-[24px]">{item.para}</p>
+                                    <h1 className=" xm:text-[25px] xm1:text-[29px] md1:text-[30px] md1:leading-[40px] lg:text-[40px] lg:leading-[50px] text-[64px] leading-[76px] font-Inter normal-case font-semibold">{item.title} <br /><span className=' text-green-900'>{item.title1}</span></h1>
+                                    <p className="py-6 text-indigo-400 normal-case font-Inter font-normal text-[16px] leading-[24px]">{item.para}</p>
                                     <AllButton>Register</AllButton>
                                 </div>
                             </div>
@@ -56,6 +57,7 @@ const HeroSection = () => {
             <TimSmithSection></TimSmithSection>
             <MarketingSection></MarketingSection>
             <SuscipitSection></SuscipitSection>
+            <TopButton></TopButton>
         </div>
     );
 };

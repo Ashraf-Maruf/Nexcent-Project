@@ -11,10 +11,10 @@ const TimSmithSection = () => {
     return (
         <div className='hero bg-white-500 py-[33px]'>
             <div className=' max-w-[1152px] mx-auto'>
-                <div class="hero-content md:flex-col flex-row md1:gap-10 gap-20">
-                    <img src={sideImg} class=" w-[326px] h-[326px] rounded-xl" alt='img' data-aos="zoom-out-right" />
+                <div className="hero-content md:flex-col flex-row md1:gap-10 gap-20">
+                    <img src={sideImg} className=" w-[326px] h-[326px] rounded-xl" alt='img' data-aos="zoom-out-right" />
                     <div className=' text-start' data-aos="zoom-out-left">
-                        <p class="font-Inter font-medium text-[16px] leading-[24px] normal-case text-indigo-400">Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>
+                        <p className="font-Inter font-medium text-[16px] leading-[24px] normal-case text-indigo-400">Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>
                         <h4 className=' mt-[16px] font-Inter font-semibold text-green-900 text-[20px] leading-[28px] capitalize'>Tim Smith</h4>
                         <p className=' mt-2 text-[16px] font-Inter font-normal leading-[24px] text-indigo-400 normal-case'>British Dragon Boat Racing Association</p>
                         <div className=' flex items-center justify-between xm4:flex-col xm4:items-start md:flex-row md:items-center md1:flex-col md2:items-start md2:flex-col mt-8'>

@@ -35,12 +35,12 @@ const CommunitySection = () => {
                 </div>
                 <div className=' grid grid-cols-3 sm:grid-cols-1 sm1:grid-cols-1 md1:grid-cols-2 lg:gap-16 gap-32'>
                     {
-                        communityData.map(comm => <div class="card bg-base-100" key={comm.id} style={boxShadow}>
-                            <figure class="px-4 pt-6">
-                                <img className='w-[65px] h-[56px]' src={comm.img} alt="Shoes" class="rounded-xl" />
+                        communityData.map(comm => <div className="card bg-base-100" key={comm.id} style={boxShadow}>
+                            <figure className="px-4 pt-6">
+                                <img className='w-[65px] h-[56px]' src={comm.img} alt="Shoes" className="rounded-xl" />
                             </figure>
-                            <div class="card-body pt-4 p-[24px] items-center text-center">
-                                <h3 class=" px-[16px] capitalize font-Inter font-bold text-[28px] leading-[36px] text-indigo-500">{comm.title}</h3>
+                            <div className="card-body pt-4 p-[24px] items-center text-center">
+                                <h3 className=" px-[16px] capitalize font-Inter font-bold text-[28px] leading-[36px] text-indigo-500">{comm.title}</h3>
                                 <p className='font-Inter font-normal normal-case text-[14px] leading-[20px] text-indigo-400'>{comm.para}</p>
                             </div>
                         </div>)

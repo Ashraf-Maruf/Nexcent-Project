@@ -43,13 +43,13 @@ const Navbar = () => {
                         <li><Link className='text-black-900 text-[20px] leading-[24px] font-Inter font-bold'>Testimonial</Link></li>
                         <li><Link className='text-black-900 text-[20px] leading-[24px] font-Inter font-bold'>FAQ</Link></li>
                         <div className=' flex flex-col xm2:px-4 px-10 gap-4'>
-                            <button class="btn border-transparent bg-white-900 text-black-900 rounded-md h-[40px] bg-transparent transition duration-700 ease-in-out px-6 font-Inter font-bold text-[20px] leading-[20px]">Login</button>
-                            <button class="btn bg-white-900 text-black-900  px-6 h-[40px] font-Inter font-bold text-[20px] leading-[20px]">Sign up</button>
+                            <button className="btn border-transparent bg-white-900 text-black-900 rounded-md h-[40px] bg-transparent transition duration-700 ease-in-out px-6 font-Inter font-bold text-[20px] leading-[20px]">Login</button>
+                            <button className="btn bg-white-900 text-black-900  px-6 h-[40px] font-Inter font-bold text-[20px] leading-[20px]">Sign up</button>
                         </div>
                     </ul>
                     <div className=' md2:hidden flex gap-4 items-center'>
-                        <button class="btn  border-transparent text-green-900  hover:font-bold rounded-md h-[40px] bg-transparent hover:bg-green-900 transition duration-700 ease-in-out hover:text-white-900 px-6 font-Inter font-medium text-[14px] leading-[20px]">Login</button>
-                        <button class="btn bg-green-900 hover:bg-green-900 hover:font-bold px-6 h-[40px] text-white-900 font-Inter font-medium text-[14px] leading-[20px]">Sign up</button>
+                        <button className="btn  border-transparent text-green-900  hover:font-bold rounded-md h-[40px] bg-transparent hover:bg-green-900 transition duration-700 ease-in-out hover:text-white-900 px-6 font-Inter font-medium text-[14px] leading-[20px]">Login</button>
+                        <button className="btn bg-green-900 hover:bg-green-900 hover:font-bold px-6 h-[40px] text-white-900 font-Inter font-medium text-[14px] leading-[20px]">Sign up</button>
                     </div>
                 </div>
             </div>

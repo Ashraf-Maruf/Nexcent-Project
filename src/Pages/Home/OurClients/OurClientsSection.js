@@ -46,7 +46,7 @@ const OurClientsSection = () => {
                 </div>
                 <div className=' flex justify-between xm2:flex-wrap xm2:gap-12 mt-10'>
                     {
-                        clienstData.map(cliens => <img src={cliens.img} alt='Icon' />)
+                        clienstData.map(cliens => <img src={cliens.img} alt='Icon' key={cliens.id} />)
                     }
                 </div>
             </div>

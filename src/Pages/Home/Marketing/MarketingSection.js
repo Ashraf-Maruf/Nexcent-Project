@@ -36,7 +36,7 @@ const MarketingSection = () => {
                 </div>
                 <div className=' grid grid-cols-3 sm1:grid-cols-1 md1:grid-cols-2  gap-6'>
                     {
-                        marketingData.map(marketing => <div class=" md1:mb-24 md2:mb-24" key={marketing.id}>
+                        marketingData.map(marketing => <div className=" md1:mb-24 md2:mb-24" key={marketing.id}>
                             <div className=' relative'>
                                 <img className=' w-full h-[286px]' src={marketing.img} alt="Shoes" />
                                 <div className=' absolute xm2:left-4 xm3:left-5 md1:left-5 md2:left-4 top-48 xm2:px-4 md2:p-4 xm4:px-12 xm4:py-6 sm1:px-28 p-5 rounded-lg lg:left-4 lg:w-[90%] lg:h-[65%]  md2:h-[65%] sm1:left-6  left-6 w-[317px] h-[176px] bg-white-500 ' style={boxShadow} data-aos="fade-up-left">

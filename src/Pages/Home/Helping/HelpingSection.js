@@ -14,10 +14,10 @@ const HelpingSection = () => {
         <div className='hero  bg-white-500 py-16'>
             <div className=' max-w-[1152px] mx-auto lg:px-4'>
                 <div className=' flex justify-between md1:flex-col md:items-start lg:gap-0 gap-28'>
-                    <div class="">
+                    <div className="">
                         <div className=' text-start' data-aos="zoom-in">
-                            <h2 class=" font-Inter font-semibold text-indigo-500 md2:text-[25px] md2:leading-[36px] lg:text-[30px] lg:leading-[36px]  text-[36px] leading-[44px] normal-case">Helping a local <br /><span className=' text-green-900'>business reinvent itself</span></h2>
-                            <p class="pt-2 text-[#18191F] font-Inter font-normal text-[18px] leading-[32px] normal-case">We reached here with our hard work and dedication</p>
+                            <h2 className=" font-Inter font-semibold text-indigo-500 md2:text-[25px] md2:leading-[36px] lg:text-[30px] lg:leading-[36px]  text-[36px] leading-[44px] normal-case">Helping a local <br /><span className=' text-green-900'>business reinvent itself</span></h2>
+                            <p className="pt-2 text-[#18191F] font-Inter font-normal text-[18px] leading-[32px] normal-case">We reached here with our hard work and dedication</p>
                         </div>
                     </div>
                     <div className='max-w-[579px] mx-auto gap-4 flex flex-wrap xm4:justify-start justify-end md:mt-10 md1:mt-10'>
