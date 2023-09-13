@@ -1,10 +1,9 @@
 import React from 'react';
-import CountUp, { useCountUp } from 'react-countup';
+import { useCountUp } from 'react-countup';
 import Icon1 from '../../../Assets/Helping-Icon/Icon01.png'
 import Icon2 from '../../../Assets/Helping-Icon/Icon02.png'
 import Icon3 from '../../../Assets/Helping-Icon/Icon03.png'
 import Icon4 from '../../../Assets/Helping-Icon/Icon04.png'
-import { Link } from 'react-router-dom';
 const HelpingSection = () => {
     useCountUp({ ref: "counter1", delay: 6, end: 2245341 });
     useCountUp({ ref: "counter2", delay: 7, end: 46328 });

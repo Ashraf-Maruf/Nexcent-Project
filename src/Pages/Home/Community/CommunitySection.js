@@ -37,7 +37,7 @@ const CommunitySection = () => {
                     {
                         communityData.map(comm => <div className="card bg-base-100" key={comm.id} style={boxShadow}>
                             <figure className="px-4 pt-6">
-                                <img className='w-[65px] h-[56px]' src={comm.img} alt="Shoes" className="rounded-xl" />
+                                <img className='w-[65px] h-[56px]' src={comm.img} alt="Shoes" />
                             </figure>
                             <div className="card-body pt-4 p-[24px] items-center text-center">
                                 <h3 className=" px-[16px] capitalize font-Inter font-bold text-[28px] leading-[36px] text-indigo-500">{comm.title}</h3>
