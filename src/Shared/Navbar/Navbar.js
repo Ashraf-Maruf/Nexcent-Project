@@ -19,10 +19,10 @@ const Navbar = () => {
             <div className=' max-w-[1215px] mx-auto px-4'>
                 <div className=' h-[84px] flex justify-between items-center'>
                     <div>
-                        <img src={Logo} alt='Logo' />
+                        <Link to='/'><img src={Logo} alt='Logo' /></Link>
                     </div>
                     <ul className=' flex lg:gap-8 gap-12 md2:hidden '>
-                        <li><Link className=' hover:font-bold transition duration-700 ease-in-out  text-[#18191F] text-[16px] leading-[24px] font-Inter font-normal'>Home</Link></li>
+                        <li><Link to='/' className=' hover:font-bold transition duration-700 ease-in-out  text-[#18191F] text-[16px] leading-[24px] font-Inter font-normal'>Home</Link></li>
                         <li><Link className='hover:font-bold transition duration-700 ease-in-out text-[#18191F] text-[16px] leading-[24px] font-Inter font-normal'>Service</Link></li>
                         <li><Link className='hover:font-bold transition duration-700 ease-in-out text-[#18191F] text-[16px] leading-[24px] font-Inter font-normal'>Feature</Link></li>
                         <li><Link className='hover:font-bold transition duration-700 ease-in-out text-[#18191F] text-[16px] leading-[24px] font-Inter font-normal'>Product</Link></li>
@@ -35,8 +35,8 @@ const Navbar = () => {
                             open ? <HiOutlineXMark color='#4CAF4F' /> : <HiBars3CenterLeft color='#4CAF4F' />
                         }
                     </div>
-                    <ul className={` bg-[#4CAF4F] p-10 flex z-30 flex-col gap-8 xm:w-64 xm1:w-64 xm2:w-72 w-80 h-[550px] fixed ${open ? 'top-[83px] translate-x-[-5%] transition duration-700 ease-in-out' : 'top-[-9999px]'}`}>
-                        <li><Link className='text-black-900 text-[20px] leading-[24px] font-Inter font-bold'>Home</Link></li>
+                    <ul onClick={() => setOpen(!open)} className={` bg-[#4CAF4F] p-10 flex z-30 flex-col gap-8 xm:w-64 xm1:w-64 xm2:w-72 w-80 h-[550px] fixed ${open ? 'top-[83px] translate-x-[-5%] transition duration-700 ease-in-out' : 'top-[-9999px]'}`}>
+                        <li><Link to='/' className='text-black-900 text-[20px] leading-[24px] font-Inter font-bold'>Home</Link></li>
                         <li><Link className='text-black-900 text-[20px] leading-[24px] font-Inter font-bold'>Service</Link></li>
                         <li><Link className='text-black-900 text-[20px] leading-[24px] font-Inter font-bold'>Feature</Link></li>
                         <li><Link className='text-black-900 text-[20px] leading-[24px] font-Inter font-bold'>Product</Link></li>
